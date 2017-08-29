@@ -9,10 +9,9 @@ package brainblasted.Math;
 
 import java.util.*;
 
-import org.w3c.dom.ranges.Range;
-
 public class oddsInRange
 {
+    // This is to make a range inclusive when counting odds
     public static final int INCLUSIVE_RANGE = 1;
 
     public static void main(String[] args)
@@ -30,6 +29,8 @@ public class oddsInRange
 
     public static void oddCounter(int rangeStart, int rangeEnd) 
     {
+        // This algorithm was found on StackExchange in word form, for a math issue. 
+        // Using it here programmatically.
         int numberOfOdds = (((rangeEnd - rangeStart)/2) + INCLUSIVE_RANGE);
         System.out.printf("The number of odds between %d and %d is %d. %n",
                                         rangeStart, rangeEnd, numberOfOdds);
