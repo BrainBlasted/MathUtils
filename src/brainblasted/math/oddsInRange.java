@@ -21,7 +21,7 @@
  * @author Christopher Davis
  * @version 20170829
  */
-package brainblasted.Math;
+package brainblasted.math;
 
 import java.util.*;
 
