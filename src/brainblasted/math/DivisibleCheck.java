@@ -38,6 +38,7 @@ public class DivisibleCheck
         double secondNum  = keyboard.nextDouble();
         keyboard.close();
         if ((firstNum % secondNum) == 0)
+        // Checks the divisibility
         {
             System.out.printf("%.1f is divisible by %.1f. %n" +
                             "The quotient is %.1f.", firstNum, secondNum, (firstNum/secondNum));
