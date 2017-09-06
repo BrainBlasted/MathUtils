@@ -1,6 +1,8 @@
 /**
  * DivisibleCheck.java
  *  Checks the whether 'a' is divisible by 'b'.
+ *  'a' is represented by firstNum, and 'b' is
+ * +represented by secondNum.
  * 
  * @author Christopher Davis
  * @version 20170905
