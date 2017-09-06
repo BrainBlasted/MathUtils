@@ -3,7 +3,7 @@
  *  This class will calculate the vertex of a Quadratic function.
  *  It takes the leading coefficient, the second coefficient, 
  * +and the C value, then calculates the vertex.
- * 
+ * w
  * @author Christopher Davis
  * @version 20170905
  */
@@ -28,6 +28,7 @@ public class QuadraticVertex
 
     public static void vertexFinder(double leadCoeff, double secondaryCoeff, double constantVal) 
     {
+        // These are set so that the code xVertex & yVertex are properly initialized.
         double xVertex = 0;
         double yVertex = 0;
 
