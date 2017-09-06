@@ -16,9 +16,9 @@ public class QuadraticVertex
     public static void main(String[] args) 
     {
         Scanner keyboard = new Scanner(System.in);
-        System.out.print("Enter the leading coefficent: ");
+        System.out.print("Enter the leading coefficient: ");
         double leadCoeff = keyboard.nextDouble();
-        System.out.print("Enter the next coefficent: ");
+        System.out.print("Enter the next coefficient: ");
         double secondaryCoeff = keyboard.nextDouble();
         System.out.print("Enter the constant value: ");
         double constantVal = keyboard.nextDouble();
