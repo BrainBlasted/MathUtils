@@ -25,13 +25,11 @@ package brainblasted.math;
 
 import java.util.*;
 
-public class oddsInRange
-{
+public class oddsInRange {
     // This is to make a range inclusive when counting odds
     public static final int INCLUSIVE_RANGE = 1;
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner rangeInput = new Scanner(System.in);
         System.out.print("First number in range: ");
         String rangeStartStr = rangeInput.nextLine();
@@ -43,8 +41,7 @@ public class oddsInRange
         oddCounter(rangeStart, rangeEnd);
     }
 
-    public static void oddCounter(int rangeStart, int rangeEnd) 
-    {
+    public static void oddCounter(int rangeStart, int rangeEnd) {
         // This algorithm was found on StackExchange in word form, for a math issue. 
         // Using it here programmatically.
         int numberOfOdds = (((rangeEnd - rangeStart)/2) + INCLUSIVE_RANGE);
