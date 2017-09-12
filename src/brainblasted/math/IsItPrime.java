@@ -30,8 +30,6 @@ public class IsItPrime {
                 return true;
             } else if (numToCheck == 7) {
                 return true;
-            } else if (divisibleByNumber(numToCheck, 5)) {
-                return false;
             } else if (!divisibleByNumber(numToCheck, 2) && 
             !divisibleByNumber(numToCheck, 3) &&
             !divisibleByNumber(numToCheck, 4) &&
